@@ -5,7 +5,7 @@ use TYPO3\CMS\Core\Imaging\IconRegistry;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
-if (!defined('TYPO3')) {
+if (!defined('TYPO3') && !defined('TYPO3_MODE')) {
     die('Access denied.');
 }
 
